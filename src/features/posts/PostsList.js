@@ -20,7 +20,7 @@ export const PostsList = () => {
             <p className="post-content">{post.content.substring(0,100)}</p>
             <ReactionButtons post={post} />
             <Link to={`/posts/${post.id}`} className="button muted-button">
-                View Post
+                See Post
             </Link>
         </article>
     ))
